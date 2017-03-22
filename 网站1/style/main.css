@@ -1,0 +1,258 @@
+.comWidth {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*header部分*/
+.header {
+	height: 100px;
+	background: #fff;
+	line-height: 110px;
+}
+.logo img{
+	float: left;
+	vertical-align: middle;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.nav {
+	float: right;
+}
+.nav li {
+	float: left;
+	margin-right: 50px;
+}
+.nav li a{
+	display: inline-block;
+	color: #3b3b3b;
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+}
+.nav li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+/*header结束*/
+.banner {
+    position: relative;
+}
+.banner .banner-bg {
+	width: 100%;
+	height: 567px;
+	overflow: hidden;	
+}
+.banner .banner-bg img {
+	margin: 0 auto;
+}
+.banner .banner-words {
+	position: absolute;
+	top: 220px;
+	left: 50%;
+	margin-left: -388px;
+}
+.banner .word-bg {
+	width: 776px;
+	height: 113px;
+
+}
+.banner .banner-words p {
+	margin-top: 17px;
+	color: #fff;
+	text-align: center;
+} 
+.banner .banner-words i{
+	display: inline-block;
+	width: 40px;
+	border-top: 1px solid #fff;
+	vertical-align: middle;
+}
+.banner .banner-words .line-l {
+    margin-right: 26px;
+}
+.banner .banner-words .line-r {
+	margin-left: 26px;
+}
+/*banner结束*/
+/*菜单部分*/
+.menu {
+	border-top: 4px solid #f34949;
+	position: relative;
+}
+.menu .menu-tips {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -78px;
+	width: 156px;
+	height: 75px;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	background: #f34949;
+}
+.menu .menu-tips:after {
+	width: 0;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+/*菜单结束*/
+/*菜单列表*/
+.menu .menu-list {
+	margin-top: 150px;
+	overflow: hidden;
+}
+.menu .menu-list ul {
+    width: 1160px;
+}
+.menu .menu-list li {
+	float: left;
+	width: 520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+}
+.menu .menu-list .menu-item .title,
+.menu .menu-list .menu-item .line {
+	float: left;
+	color: #555;
+}
+.menu .menu-list .menu-item .price {
+	float: right;
+	color: #555;
+	font-size: 16px;
+}
+.menu .menu-list .menu-item a {
+	width: 230px;
+	white-space: nowrap;
+}
+.menu .menu-list .menu-item a h4 {
+	font-size: 16px;
+
+}.menu .menu-list .menu-item .title p {
+	margin-top: 4px;
+	color: #b7b7b7;
+	font-size: 12px;
+}
+
+.menu .menu-list .menu-item .line {
+	width: 192px;
+	border-top: 1px solid #e3e1e1;
+	margin-top: 10px;
+}
+.menu .menu-btn {
+	width: 132px;
+	height: 34px;
+	line-height: 34px;
+	border:1px solid #d7d5d5;
+	padding-left: 16px;
+}
+.menu .menu-btn span {
+	margin-left: 13px;
+}
+.menu .menu-btn span.icon {
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+    background: url(../img/icon.jpg)no-repeat;
+}
+/*pannel部分*/
+.pannel {
+	margin-top: 100px;
+}
+.pannel .pannel-top h3,
+.pannel .pannel-top .line {
+	float: left;
+}
+.pannel .pannel-top h3 {
+	font-size: 16px;
+	color: #3b3b3b;
+	font-family: 'Tahoma';
+}
+.pannel .pannel-top .line {
+	width: 200px;
+	border-top: 1px solid #e5e3e3;
+	margin-left: 32px;
+	margin-top: 10px;
+}
+.pannel .pannel-top .pannel-btns {
+	font-size: 0;
+	float: right;
+}
+.pannel .pannel-top .pannel-btns a {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #dedede;
+    margin-right: 11px;
+}
+.pannel .pannel-top .pannel-btns a.on{
+	background: #9b9b9b;
+}
+.food-list {
+	margin-top: 50px;
+	overflow: hidden;
+}
+.food-list ul {
+	width: 2320px;
+}
+.food-list .food-item {
+	float: left;
+	margin-right: 60px;
+	width: 230px;
+}
+.food-list .food-item img {
+	margin-bottom: 30px;
+	height: 202px;
+}
+.food-list .food-item .name {
+	color: #555;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.food-list .food-item .name span {
+	float: right;
+}
+.food-list .food-item .starbar .star {
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	background: url(../img/foodlist.jpg)no-repeat;
+	margin-right: 5px;
+}
+.food-list .food-item .starbar .no-star {
+	background-position: 0 -11px;
+}
+/*食物图*/
+.food-pics {
+	margin-top: 100px;
+	height: 378px;
+	overflow: hidden;
+}
+.food-pics .pic-col {
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+.food-pics .pic-col img:hover {
+	transform: scale(1.4);
+	transition: 0.6s;
+}
+.food-pics .pic-m {
+	width: 353px;
+}
+.food-pics .pic-s {
+	width: 287px;
+}
+.food-pics .pic-row img{
+	display: block;
+}
+.food-pics .pic-l {
+	width: 460px;
+}
